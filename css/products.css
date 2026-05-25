@@ -312,6 +312,7 @@ body { background: var(--bg); }
 .card-pf566{ --c: #3478c5; --soft: rgba(52,120,197,.18); }
 .card-pfa  { --c: #c06a2a; --soft: rgba(192,106,42,.18); }
 .card-pfk  { --c: #8851b6; --soft: rgba(136,81,182,.18); }
+.card-und  { --c: #d4961a; --soft: rgba(212,150,26,.18); }
 
 /* Card internals */
 .card-top {
