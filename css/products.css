@@ -315,6 +315,7 @@ body { background: var(--bg); }
 .card-und  { --c: #d4961a; --soft: rgba(212,150,26,.18); }
 .card-clz  { --c: #1a6ea0; --soft: rgba(26,110,160,.18); }
 .card-clx  { --c: #b83365; --soft: rgba(184,51,101,.18); }
+.card-pfn  { --c: #c0392b; --soft: rgba(192,57,43,.18); }
 
 /* Card internals */
 .card-top {
