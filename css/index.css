@@ -155,7 +155,7 @@ body { background: var(--bg); }
 /* ── Tool cards grid ── */
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: clamp(10px, 2vw, 16px);
 }
 .tool-card {
@@ -196,6 +196,7 @@ body { background: var(--bg); }
 .tool-retire   { --c: #d8b45f; --soft: rgba(216,180,95,.19); }
 .tool-income   { --c: #d48a3a; --soft: rgba(212,138,58,.17); }
 .tool-accelerate{ --c: #8870d9; --soft: rgba(136,112,217,.17); }
+.tool-property  { --c: #2e7d52; --soft: rgba(46,125,82,.17); }
 
 /* Card internals */
 .card-top {
@@ -404,7 +405,7 @@ body { background: var(--bg); }
   .hero { grid-template-columns: .7fr 1.3fr; min-height: auto; padding-top: 10px; }
   .brand-stage { order: 0; }
   .logo-circle { width: min(160px, 90%); }
-  .grid { grid-template-columns: repeat(4, 1fr); gap: 10px; }
+  .grid { grid-template-columns: repeat(5, 1fr); gap: 10px; }
   .tool-card { min-height: 200px; }
   .tool-title { font-size: 22px; }
   .tool-question, .tool-desc { display: none; }
