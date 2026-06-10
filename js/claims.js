@@ -1,10 +1,10 @@
 /* claims.js — GodzillaPaul 理賠案例庫資料與篩選 */
 (function () {
   const claimCases = [
-    { title:'常見理賠區', folder:'common', isFolder:true, categories:['medical','hospital','surgery','accident-medical','fracture','major','ltc'], tags:['#常見理賠','#案例專區'], summary:'先看最常遇到的理賠情境，從病名快速理解保險可能怎麼派上用場。', keywords:'常見理賠 案例 專區 剖腹產 息肉 鼻中隔 痔瘡 子宮肌瘤 人工關節 意外 達文西 椎間盤 幼兒 長照 重大傷病', url:'' },
+    { title:'常見理賠區', folder:'common', isFolder:true, categories:['medical','hospital','surgery','accident-medical','fracture','major','ltc'], tags:['#常見理賠','#案例專區'], summary:'先看最常遇到的理賠情境，從病名快速理解保險可能怎麼派上用場。', keywords:'常見理賠 案例 專區 剖腹產 息肉 鼻中隔 痔瘡 子宮疾病 子宮肌瘤 人工關節 意外 達文西 椎間盤 幼兒 長照 重大傷病', url:'' },
     { title:'兒童相關', folder:'children', isFolder:true, categories:['medical','hospital','surgery','major'], tags:['#兒童','#住院醫療'], summary:'孩子常見疾病、住院、手術與父母最容易擔心的醫療費用情境。', keywords:'兒童 小孩 幼兒 新生兒 住院 手術 發燒 肺炎 腸胃炎', url:'' },
     { title:'門診手術', folder:'outpatient', isFolder:true, categories:['medical','surgery'], tags:['#門診手術','#醫療實支'], summary:'不用住院也可能有費用壓力，門診手術、自費項目與實支實付怎麼看。', keywords:'門診手術 息肉 白內障 自費 醫療實支 手術定額', url:'' },
-    { title:'婦女相關', folder:'women', isFolder:true, categories:['medical','hospital','surgery'], tags:['#婦女','#婦科'], summary:'生產、剖腹產、婦科疾病與住院手術相關案例。', keywords:'婦女 生產 剖腹產 子宮肌瘤 卵巢囊腫 婦科', url:'' },
+    { title:'婦女相關', folder:'women', isFolder:true, categories:['medical','hospital','surgery'], tags:['#婦女','#婦科'], summary:'生產、剖腹產、婦科疾病與住院手術相關案例。', keywords:'婦女 生產 剖腹產 子宮疾病 子宮肌瘤 卵巢囊腫 婦科', url:'' },
     { title:'意外相關', folder:'accident', isFolder:true, categories:['accident-medical','accident-hospital','fracture'], tags:['#意外實支','#意外住院'], summary:'車禍、跌倒、運動傷害等常見意外理賠情境。', keywords:'意外 車禍 跌倒 扭傷 撞傷 運動傷害 骨折', url:'' },
     { title:'癌症相關', folder:'cancer', isFolder:true, categories:['cancer','major','medical','hospital','surgery'], tags:['#癌症','#重大傷病'], summary:'癌症診斷、治療、住院、手術與重大傷病卡相關案例。', keywords:'癌症 惡性腫瘤 乳癌 肺癌 大腸癌 化療 標靶 重大傷病', url:'' },
     { title:'心臟相關', folder:'heart', isFolder:true, categories:['major','medical','hospital','surgery'], tags:['#心臟','#重大傷病'], summary:'心肌梗塞、心導管、支架與心臟手術等案例。', keywords:'心臟 心肌梗塞 心導管 支架 心律不整 心臟手術', url:'' },
@@ -21,7 +21,7 @@
     { title:'息肉切除', series:'常見理賠案例 02', folder:'common outpatient organ', categories:['medical','surgery'], tags:['#醫療實支','#手術定額'], summary:'息肉切除常見於門診或住院處置，重點在收據明細與手術項目。', keywords:'息肉 切除 大腸息肉 胃息肉 門診手術 手術定額 醫療實支', url:'https://godzillapaul.github.io/claim-Polyps-02/' },
     { title:'鼻中隔', series:'常見理賠案例 03', folder:'common outpatient other', categories:['medical','surgery','hospital'], tags:['#醫療實支','#手術定額'], summary:'鼻中隔手術常牽涉醫療必要性、自費項目與收據明細。', keywords:'鼻中隔 鼻中膈 鼻塞 耳鼻喉 手術 醫療實支', url:'https://godzillapaul.github.io/claim-Nasal_septum-03/' },
     { title:'痔瘡', series:'常見理賠案例 04', folder:'common outpatient organ', categories:['medical','surgery','hospital'], tags:['#醫療實支','#手術定額'], summary:'常見手術也可能產生自費項目，保障不是只有大病才有感。', keywords:'痔瘡 痔瘡手術 肛門 手術 住院 醫療實支', url:'https://godzillapaul.github.io/claim-hemorrhoid-04/' },
-    { title:'子宮肌瘤', series:'常見理賠案例 05', folder:'common women reproductive', categories:['medical','hospital','surgery'], tags:['#醫療實支','#住院定額','#手術定額'], summary:'婦科手術常見又實際，適合說明醫療實支與住院定額如何互補。', keywords:'子宮肌瘤 婦科 婦女 手術 住院 醫療實支 生殖器', url:'' },
+    { title:'子宮疾病', series:'常見理賠案例 05', folder:'common women reproductive', categories:['medical','hospital','surgery'], tags:['#醫療實支','#住院定額','#手術定額'], summary:'子宮肌瘤、息肉、子宮切除與海扶刀等婦科治療，從症狀、收據到理賠結果一次看懂。', keywords:'子宮疾病 子宮肌瘤 子宮息肉 子宮切除 海扶刀 海芙刀 婦科 婦女 手術 住院 醫療實支 生殖器', url:'https://godzillapaul.github.io/claim-Uterus_Disorders-05/' },
     { title:'人工關節', series:'常見理賠案例 06', folder:'common joint', categories:['medical','surgery','hospital'], tags:['#醫療實支','#手術定額'], summary:'人工關節常有自費醫材，保障額度是否足夠，客戶看案例最有感。', keywords:'人工關節 關節 醫材 自費醫材 手術 醫療實支', url:'' },
     { title:'意外受傷', series:'常見理賠案例 07', folder:'common accident property', categories:['accident-medical','accident-hospital','fracture'], tags:['#意外實支','#意外住院','#意外骨折'], summary:'跌倒、車禍、運動傷害等情境，可快速理解意外保障的啟動方式。', keywords:'意外受傷 車禍 跌倒 運動傷害 骨折 意外實支 意外住院 產險', url:'' },
     { title:'達文西手術', series:'常見理賠案例 08', folder:'common outpatient organ cancer', categories:['medical','surgery','cancer'], tags:['#醫療實支','#手術定額','#癌症'], summary:'高額自費手術最能看出醫療實支額度差異，也是客戶最容易有感的案例。', keywords:'達文西 達文西手術 自費手術 微創 癌症 醫療實支', url:'' },
