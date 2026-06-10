@@ -18,7 +18,7 @@
     { title:'其他', folder:'other', isFolder:true, categories:['medical','hospital','surgery'], tags:['#其他案例','#補充情境'], summary:'無法直接歸類但客戶常問的理賠情境。', keywords:'其他 理賠 補充 案例 醫療 住院 手術', url:'' },
 
     { title:'剖腹產', series:'常見理賠案例 01', folder:'common women', categories:['medical','hospital','surgery'], tags:['#醫療實支','#住院定額','#手術定額'], summary:'生產遇到醫療必要時，住院、手術與相關費用都可能成為理賠重點。', keywords:'剖腹產 生產 胎位不正 婦女 住院 手術 醫療實支', url:'https://godzillapaul.github.io/claim-c-section/' },
-    { title:'息肉切除', series:'常見理賠案例 02', folder:'common outpatient organ', categories:['medical','surgery'], tags:['#醫療實支','#手術定額'], summary:'息肉切除常見於門診或住院處置，重點在收據明細與手術項目。', keywords:'息肉 切除 大腸息肉 胃息肉 門診手術 手術定額 醫療實支', url:'' },
+    { title:'息肉切除', series:'常見理賠案例 02', folder:'common outpatient organ', categories:['medical','surgery'], tags:['#醫療實支','#手術定額'], summary:'息肉切除常見於門診或住院處置，重點在收據明細與手術項目。', keywords:'息肉 切除 大腸息肉 胃息肉 門診手術 手術定額 醫療實支', url:'https://godzillapaul.github.io/claim-Polyps-02/' },
     { title:'鼻中隔', series:'常見理賠案例 03', folder:'common outpatient other', categories:['medical','surgery','hospital'], tags:['#醫療實支','#手術定額'], summary:'鼻中隔手術常牽涉醫療必要性、自費項目與收據明細。', keywords:'鼻中隔 鼻中膈 鼻塞 耳鼻喉 手術 醫療實支', url:'' },
     { title:'痔瘡', series:'常見理賠案例 04', folder:'common outpatient organ', categories:['medical','surgery','hospital'], tags:['#醫療實支','#手術定額'], summary:'常見手術也可能產生自費項目，保障不是只有大病才有感。', keywords:'痔瘡 痔瘡手術 肛門 手術 住院 醫療實支', url:'' },
     { title:'子宮肌瘤', series:'常見理賠案例 05', folder:'common women reproductive', categories:['medical','hospital','surgery'], tags:['#醫療實支','#住院定額','#手術定額'], summary:'婦科手術常見又實際，適合說明醫療實支與住院定額如何互補。', keywords:'子宮肌瘤 婦科 婦女 手術 住院 醫療實支 生殖器', url:'' },
